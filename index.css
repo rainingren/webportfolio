@@ -1,0 +1,12 @@
+body {
+	font-family: Poppins;
+}
+
+#bg-image {
+	background-image: url(https://cdn.wallpapersafari.com/91/94/PmdesY.png);
+	background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center top;
+    background-attachment: scroll;
+}
+

@@ -8,6 +8,8 @@
 
 	<link rel="icon" href="./images/book.svg">
 
+	<link rel="stylesheet" href="./index.css">
+
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +17,8 @@
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<script src="https://kit.fontawesome.com/a7e8676ca6.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<!-- Navbar Here -->
@@ -31,10 +35,10 @@
 		        <a class="nav-link" href="#about">About</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#gallery">Gallery</a>
+		        <a class="nav-link" href="./gallery.html">Gallery</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#project">Project</a>
+		        <a class="nav-link" href="./gallery.html">Project</a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#contact">Contact</a>
@@ -50,7 +54,7 @@
 		<!-- Landing Section Start -->
 		<div class="row bg-light justify-content-center align-items-center px-3 py-4 py-lg-5" id="landing">
 			<div class="col-10 col-md-3 p-3 py-lg-5">
-				<img src="" class="rounded-circle border border-dark img-fluid">
+				<img src="./images/loreen.jpg" class="rounded-circle border border-dark img-fluid">
 			</div>
 			<div class="col-md-7 col-lg-5 pl-md-5 py-lg-5">
 				<h1 class="mt-2 text-center text-md-left">Loreen Gallos</h1>
@@ -65,80 +69,90 @@
 		<!-- About Section Start -->
 		<section class="jumbotron text-center" id="about">
 		    
-		    <div class="mx-5">
+		    <div class="bg-image p-5 text-center shadow-1-strong rounded text-white" id="bg-image">
 		    	<h1>Full Stack Web Developer | Loreen Gallos</h1>
-		    	<p class="mt-5">Hi! My name is Loreen Gallos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non maximus lacus. Vestibulum justo nunc, maximus eu bibendum a, blandit at dolor. Integer vitae varius augue. Praesent ullamcorper augue sit amet tellus semper efficitur. Sed interdum arcu eget tortor dictum eleifend non ac enim. Suspendisse potenti. Morbi id arcu ac erat gravida pharetra a non felis. Cras non urna arcu. Vivamus sodales quam ipsum, id ultrices dolor vulputate at. Integer mi odio, blandit eu scelerisque consequat, pharetra a nulla. Cras feugiat leo a ex iaculis rhoncus. Proin a placerat neque. Nullam pulvinar mauris eget tempus elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+		    	<p class="mt-5">Hi! My name is Loreen Gallos. I am currently studying at Escuela de Sophia of Caloocan, Inc., under the strand of STEM. I am a Grade 12 student aspiring to be a web developer. I joined the Zuitt Company Bootcamp to boost my skills and proficiency in coding so that I would be ready for my studies in college. I want to pursue Computer Science as my major in college. Even though the course is unexpected for me as a person who excels only in mathematics, I still found an interest in coding, especially designing webpages. I'm looking forward to working together with you and your team. My passion is certainly key to my contribution to your company. </p>
 		    </div>
 		</section>
 		<!-- About Section End -->
 
-		<!-- Gallery Page Start -->
-		<section>
-		<div class="flex-column container-fluid w-100" id="gallery">
-			<h1 class="mt-5 text-center">Tools</h1>
-			<div class="row justify-content-center">
-				<div class="col-md-3 col-lg-4 mx-4 my-3">
-					<h3 class="my-3 text-center">Front End</h3>
-						<div class="row justify-content-center">
-							<div class="col-6">
-								<img src="./images/html5.png" class="img-fluid">
-							</div>
-							<div class="col-6">
-								<img src="./images/css3.png" class="img-fluid">
-							</div>
-							<div class="col-6">
-								<img src="./images/bs.png" class="img-fluid">
-							</div>
-							<div class="col-6">
-								<img src="./images/js.png" class="img-fluid">
-							</div>
+		
+
+		<!-- Contact Page start -->
+		<section class="justify-content-center bg-light container-fluid row" id="contact">
+			<div class="col-md-12 my-4 justify-content-center">
+				<h4 class="text-center my-4">Contact Me</h4>
+				<div class="d-flex justify-content-center">
+					<div class="col-6 justify-content-center">
+						<div class="form-group">
+							<label>Full Name</label>
+							<input type="text" class="form-control">
 						</div>
-				</div>
-				<div class="col-md-3 col-lg-4 mx-4 my-3">
-					<h3 class="my-3 text-center">Other Tools</h3>
-						<div class="row justify-content-center">
-							<div class="col-6">
-								<img src="./images/gitbash.png" class="img-fluid">
-							</div>
-							<div class="col-6">
-								<img src="./images/gitlab.png" class="img-fluid">
-							</div>
-							<div class="col-6">
-								<img src="./images/sublime.png" class="img-fluid">
-							</div>
-							<div class="col-6">
-								<img src="./images/chrome.png" class="img-fluid">
-							</div>
+						<div class="form-group">
+							<label>Email Address</label>
+							<input type="email" class="form-control" id="email">
 						</div>
-				</div>
-			</div>
-			<h1 class="mt-5 text-center">Languages</h1>
-			<div class="row justify-content-center">
-				<div class="col-md-3 col-lg-4 mx-4 my-3">
-					<div class="row justify-content-center">
-						<div class="col-6">
-							<img src="./images/html5.png" class="img-fluid">
+						<div class="form-group">
+							<label>Message</label>
+							<textarea class="form-control"></textarea>
 						</div>
-						<div class="col-6">
-							<img src="./images/css3.png" class="img-fluid">
-						</div>
+						<button class="btn btn-outline-dark btn-block" id="form-submit" data-toggle="modal" data-target="#exampleModal">Send</button>
+						<!-- modal -->
+						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title text-dark font-weight-bold" id="exampleModalLabel">Thank you for contacting me!</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body text-dark">
+                                        Message Succesfully Sent
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+						<!-- modal end -->
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid bg-light py-5 text-center">
-				<h2>Interests and Hobbies</h2>
-				<p class="pt-3">Suspendisse magna libero, scelerisque at erat sit amet, imperdiet porta dolor. Suspendisse eleifend enim aliquet accumsan ultricies. Etiam lacinia, ex eu mattis laoreet, nibh diam tincidunt nibh, maximus gravida metus urna non eros. Duis porta molestie mi, at ultricies neque pulvinar at. Integer egestas sodales turpis. Nullam gravida felis vestibulum auctor pellentesque. Duis a lacus ut lectus lacinia malesuada. Integer rhoncus ante id est maximus hendrerit. Maecenas non leo eu odio volutpat mollis in sit amet velit. Vestibulum nec bibendum dui, et bibendum massa. Sed iaculis sem sit amet metus viverra consectetur. Integer ac tortor sodales, placerat turpis quis, fermentum dolor.</p>
-				<div class="row justify-content-center">
-					
+			<div class="row justify-content-center mb-5 container-fluid">
+				<div class="col-3 col-md-1">
+					<a href="https://www.facebook.com/loreen.gallos"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-3 col-md-1">
+					<a href="https://www.linkedin.com/in/loreen-may-jodi-gallos-a7211a251/"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-3 col-md-1">
+					<a href="https://gitlab.com/edsci-gallos"><i class="fab fa-gitlab fa-2x" aria-hidden="true"></i></a>
+				</div>
+				<div class="col-3 col-md-1">
+					<a href="https://github.com/rainingren"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
 				</div>
 			</div>
 		</section>
-		<!-- Gallery Page End -->
+		
+		
+		<!-- Contact Page End -->
 
-		<!-- Project Page Start -->
-
-		<!-- Project Page End -->
-
+	<!-- Footer Start -->
+	<footer class="bg-info py-3 text-dark container-fluid">
+		<div class="d-flex justify-content-between mt-3">
+			<div class="py-2 mx-5">
+				<p>Loreen Gallos</p>
+				<p>loreenmayjodi.gallos@edsci.edu.ph</p>
+			</div>
+			<div class="py-2 mx-5">
+				<p>(+63)967 320 3899</p>
+				<p>© All rights reserved 2023</p>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer End -->
 				
 
 	<!-- JS Bootstrap -->
